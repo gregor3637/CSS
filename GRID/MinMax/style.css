@@ -50,3 +50,35 @@
 .obj--6 { background-color: goldenrod;}
 .obj--7 { background-color: crimson;}
 .obj--8 { background-color: darkslateblue;}
+
+/* -------------------------- */
+p {
+  text-align: center;
+  font-size: 30px;
+}
+/* -------------------------- */
+
+#container-3 {
+  width: 80%;
+  margin: 30px auto;
+  background-color: #ddd;
+
+  display: grid;
+  grid-template-rows:  minmax(100px, 120px) minmax(150px, min-content);
+  grid-template-columns: minmax(200px, 300px) repeat(3, 1fr);
+}
+
+.el {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.el--1 { background-color: orangered;}
+.el--2 { background-color: yellowgreen;}
+.el--3 { background-color: blueviolet;}
+.el--4 { background-color: palevioletred;}
+.el--5 { background-color: royalblue;}
+.el--6 { background-color: goldenrod;}
+.el--7 { background-color: crimson;}
+.el--8 { background-color: darkslateblue;}
