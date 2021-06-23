@@ -1,1 +1,1 @@
-[Contribution guidelines for this project](/Grid_MinMax.png)
+[Contribution guidelines for this project](./Grid_MinMax.png)
