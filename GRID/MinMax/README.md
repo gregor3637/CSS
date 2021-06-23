@@ -1,1 +1,1 @@
-<img  width="1000" height="1000" src="./Grid_MinMax.png">
+<img src="./Grid_MinMax.png">
