@@ -13,3 +13,40 @@
   background-color: #8ca0ff;
   padding: 5px;
 }
+
+#container {
+  display: grid;
+  grid-template-columns: minmax(min-content, 300px) minmax(200px, 1fr) 150px;
+  grid-gap: 5px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 100%;
+  background-color: #8cffa0;
+  padding: 10px;
+}
+
+/* --------------------------------- */
+#container-2 {
+  width: 1000px;
+  margin: 30px auto;
+  background-color: #ddd;
+
+  display: grid;
+  grid-template-columns: max-content 1fr 1fr min-content;
+  grid-template-rows: repeat(2, minmax(150px, min-content));
+}
+
+.obj {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.obj--1 { background-color: orangered;}
+.obj--2 { background-color: yellowgreen;}
+.obj--3 { background-color: blueviolet;}
+.obj--4 { background-color: palevioletred;}
+.obj--5 { background-color: royalblue;}
+.obj--6 { background-color: goldenrod;}
+.obj--7 { background-color: crimson;}
+.obj--8 { background-color: darkslateblue;}
